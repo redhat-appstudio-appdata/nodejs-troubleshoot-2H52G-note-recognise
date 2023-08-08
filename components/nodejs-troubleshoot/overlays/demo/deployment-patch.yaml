@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-troubleshoot
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/jmayorgarh-tenant/nodejs-troubleshoot/nodejs-troubleshoot@sha256:2dac301e4d278c0a4f28302ff068299e7ed00902e4a97b9bef3918bd61d1ccdc
+        name: container-image
+        resources: {}
+status: {}
