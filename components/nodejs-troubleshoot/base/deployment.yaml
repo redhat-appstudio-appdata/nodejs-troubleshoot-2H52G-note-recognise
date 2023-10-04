@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nodejs-troubleshoot
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/jmayorgarh-tenant/nodejs-troubleshoot/nodejs-troubleshoot@sha256:47efe9ae57b8ffabc71b2fa3e3f63b01df701a311d4010c04f92220cde222655
+      - image: quay.io/redhat-user-workloads/jmayorgarh-tenant/nodejs-troubleshoot/nodejs-troubleshoot@sha256:2dac301e4d278c0a4f28302ff068299e7ed00902e4a97b9bef3918bd61d1ccdc
         imagePullPolicy: Always
         name: container-image
         ports:
